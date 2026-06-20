@@ -19,10 +19,31 @@ h1 {
         .bg-colour-red
         {
             background-color: rgb(12, 185, 238);
+           /* padding: 20px;*/
+            padding: 20px 40px 20px 20px;
+            border: 5px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            border-style:ridge;
+            margin: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 100px; 
+            margin-right: 100px;
+            margin: 50px 100px 50px 100px;
+            margin: 50px auto;
+            margin: 50px 100px;
+            margin: 50px 100px 50px 100px;
         }
         .bg-colour-green
         {
             background-color: rgb(140, 12, 231);
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font: size 50px;
+            text-align:right;
+            letter-spacing: 1ch;
+            text-transform: uppercase;
+            text-decoration: underline;
+          
         }  
          
        #pg-background
@@ -36,4 +57,23 @@ h1 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             text-align : center;
+        }
+        #pg-background
+        {
+            background-color: rgb(10, 33, 241);
+        }
+        #pg2-background
+        {
+            background-color: rgb(196, 189, 12);
+        }
+        #pg3-background
+        {
+            background-color: rgb(6, 192, 90);
+        }
+        
+        *
+        {
+            background-color: rgb(6, 251, 46);
+            margin: 100;
+            padding: 0;
         }
